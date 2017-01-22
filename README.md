@@ -1,6 +1,7 @@
 
 **1. Build**
 
+Linux : 
 ```
 mkdir build && cd build && cmake .. && make
 ```
