@@ -12,7 +12,13 @@ Install Visual studio 2013
 
 Install latest cmake
 
-Install boost 1.55 from here : http://boost.teeks99.com/bin/1.55.0/boost_1_55_0-msvc-12.0-64.exe
+Download and unzip boost 1.55 from here : https://sourceforge.net/projects/boost/files/boost/1.55.0/boost_1_55_0.zip/download
+
+open a developer command line for visual studio 2013 and go to the boost folder
+
+run bootstrap
+
+run b2 --toolset=msvc-12.0 --with-serialization --with-date_time --with-filesystem --with-program_options --with-regex --with-system --with-thread --with-chrono  --build-type=complete architecture=x86 address-model=64
 
 Clone this repo and the xmd-coin repo in it
 
