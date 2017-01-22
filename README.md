@@ -8,7 +8,7 @@ mkdir build && cd build && cmake .. && make
 
 Windows :
 
-Install Visual studio 2012
+Install Visual studio 2013
 
 Install latest cmake
 
@@ -24,7 +24,10 @@ C:/local/boost_1_55_0/lib64-msvc-12.0 (BOOST_LIBRARYDIR)
 
 C:/local/boost_1_55_0 (BOOST_ROOT)
 
-on cmake gui click Configure, Generate, Open Project
+
+on cmake gui click Configure and select the Visual studio 12 2013 Win64
+
+on cmake gui click Generate and then Open Project
 
 In visual studio 2013 make sure you in Release and compile!
 
