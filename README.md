@@ -1,7 +1,7 @@
 
 **1. Build**
 
-Linux :
+Linux/osx :
 ```
 mkdir build && cd build && cmake .. && make
 ```
