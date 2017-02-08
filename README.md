@@ -3,7 +3,8 @@
 
 Linux/osx :
 ```
-mkdir build && cd build && cmake .. && make
+./build.sh     (chmod +x build.sh)
+
 ```
 
 
