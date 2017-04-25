@@ -8,4 +8,4 @@ Linux/osx :
 ```
 
 
-Windows : https://github.com/upggr/xmd-coin
+Windows : https://github.com/newxmd/xmd-coin
